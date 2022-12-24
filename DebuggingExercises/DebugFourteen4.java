@@ -48,7 +48,7 @@ public class DebugFourteen4 extends JFrame implements ItemListener {
    }
    @Override
    public void itemStateChanged(ItemEvent check) {
-       Object source = check.getItem();
+       Object source = check.getSource();
        if(source == cola || source == milk) {
           totPrice.setText("$" + HIGH_PRICE);
        }

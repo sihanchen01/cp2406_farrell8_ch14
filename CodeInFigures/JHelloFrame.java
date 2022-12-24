@@ -31,4 +31,11 @@ public class JHelloFrame extends JFrame implements ActionListener
        String greet = "Hello, " + name;
        greeting.setText(greet);
    }
+
+
+   public static void main(String[] args) {
+      JFrameWithToolTip frame = new JFrameWithToolTip();
+      frame.setSize(600, 400);
+      frame.setVisible(true);
+   }
 }
